@@ -1,0 +1,35 @@
+h1{
+	color: green;
+	text-align:center;
+}
+button{
+	width: 150;
+	height: 100;
+margin:  20px; background-color:red;
+
+}
+button:hover{
+	background-color: green;
+}
+a:hover{
+	color: green;
+
+
+}
+td,th,table{
+	border: 3px solid  black;
+	border-collapse: collapse;
+}
+
+#Mat{
+	display: flex;
+	flex-wrap:wrap ;
+}
+#Mat>div {
+	background-color: blue ;
+	font-size: 20px;
+	margin: 20px;
+	padding: 20PX;
+	width: 200PX;
+	
+}
